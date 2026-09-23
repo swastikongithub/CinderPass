@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Lava_Crater
+  m_Shader: {fileID: 4800000, guid: be2bf65ba5a23dc42918984a56a81b12, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CrustAlbedo:
+        m_Texture: {fileID: 2800000, guid: e722e2cade2638347b661d2ff62d0d4b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CrustNormal:
+        m_Texture: {fileID: 2800000, guid: ea777ff5892027448a8681fa4d3ebc31, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 6abaf5dbd3b23084f992ae8e7e54f4ee, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Activity: 1.5
+    - _ChannelHalfWidth: 4
+    - _CrackWidth: 0.07
+    - _CrustCoverage: 0.4
+    - _CrustSmoothness: 0.18
+    - _CrustSoftness: 0.09
+    - _CrustTiling: 8
+    - _FlowCycle: 9
+    - _FlowSpeed: 0.35
+    - _HeatScale: 60
+    - _NoiseTiling: 20
+    - _NormalStrength: 1
+    - _ShoreDistance: 1.6
+    - _ShoreGlow: 1.6
+    - _Swirl: 0.6
+    - _UVFlow: 0
+    - _WaveHeight: 0.05
+    m_Colors:
+    - _CoreColor: {r: 3.8, g: 1.25, b: 0.18, a: 1}
+    - _CrackColor: {r: 2.2, g: 0.34, b: 0.03, a: 1}
+    - _CrustColor: {r: 0.15, g: 0.13, b: 0.125, a: 1}
+    - _MoltenColor: {r: 2.1, g: 0.4, b: 0.04, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

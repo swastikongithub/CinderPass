@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+  m_Name: VP_EmberBasin
+  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.VolumeProfile
+  components:
+  - {fileID: 17549049174000490}
+--- !u!114 &17549049174000490
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a61b3f23754ff7447bfd35f66125220f, type: 3}
+  m_Name: AtmosphereSettings
+  m_EditorClassIdentifier: CinderPass.Runtime::CinderPass.Rendering.AtmosphereSettings
+  active: 1
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  density:
+    m_OverrideState: 1
+    m_Value: 0.0021
+  heightFalloff:
+    m_OverrideState: 1
+    m_Value: 0.016
+  baseHeight:
+    m_OverrideState: 1
+    m_Value: 42
+  startDistance:
+    m_OverrideState: 1
+    m_Value: 18
+  fogColor:
+    m_OverrideState: 1
+    m_Value: {r: 0.6, g: 0.58, b: 0.57, a: 1}
+  sunScatterColor:
+    m_OverrideState: 1
+    m_Value: {r: 1, g: 0.66, b: 0.38, a: 1}
+  sunScatterPower:
+    m_OverrideState: 1
+    m_Value: 6
+  sunScatterStrength:
+    m_OverrideState: 1
+    m_Value: 0.42
+  maxOpacity:
+    m_OverrideState: 1
+    m_Value: 0.94
+  skyDistance:
+    m_OverrideState: 1
+    m_Value: 5000

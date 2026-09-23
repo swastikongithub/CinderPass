@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eea50c8e0328374cab3d41632abbbc5, type: 3}
+  m_Name: VehicleConfig_Prometheus
+  m_EditorClassIdentifier: CinderPass.Runtime::CinderPass.Vehicle.VehicleConfig
+  mass: 1650
+  linearDamping: 0.02
+  angularDamping: 0.4
+  maxAngularVelocity: 7
+  torqueCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 800
+      value: 260
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 2200
+      value: 400
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 3800
+      value: 450
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 5200
+      value: 420
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 6400
+      value: 330
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  idleRpm: 850
+  maxRpm: 6400
+  rpmResponse: 7
+  gearRatios:
+  - 3.6
+  - 2.25
+  - 1.6
+  - 1.2
+  - 0.95
+  reverseRatio: 3.4
+  finalDrive: 3.9
+  drivetrainEfficiency: 0.85
+  shiftUpRpm: 5500
+  shiftDownRpm: 2500
+  shiftDuration: 0.22
+  frontTorqueShare: 0.42
+  topSpeedKmh: 118
+  reverseTopSpeedKmh: 32
+  brakeTorque: 3400
+  frontBrakeBias: 0.62
+  handbrakeTorque: 5200
+  engineBrakeTorque: 280
+  holdTorque: 900
+  maxSteerAngle: 34
+  highSpeedSteerAngle: 11
+  steerFadeSpeedKmh: 95
+  steerSpeed: 3.2
+  steerReturnSpeed: 5.5
+  suspensionDistance: 0.3
+  springFrequency: 1.6
+  dampingRatio: 0.42
+  suspensionTargetPosition: 0.45
+  forceAppPointDistance: 0.12
+  wheelMass: 28
+  antiRollStiffness: 11000
+  forwardExtremumSlip: 0.4
+  forwardExtremumValue: 1
+  forwardAsymptoteSlip: 0.8
+  forwardAsymptoteValue: 0.55
+  forwardStiffness: 1.15
+  sidewaysExtremumSlip: 0.22
+  sidewaysExtremumValue: 1
+  sidewaysAsymptoteSlip: 0.5
+  sidewaysAsymptoteValue: 0.78
+  sidewaysStiffness: 1.3
+  handbrakeRearGrip: 0.55
+  tractionSlipLimit: 0.45
+  tractionRecoverRate: 3
+  downforce: 2.2
+  airborneUprightStrength: 2.5
+  airborneAngularDamping: 1.2
